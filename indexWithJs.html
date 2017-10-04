@@ -12,14 +12,28 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-        <link rel="stylesheet" href="style/main.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <!--<link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" href="style/mainWithJs.css">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <div id="popup" class="active">
+          <div>
+              <p>Bonjour, je m'appelle Popup</p>
+              <p>Je suis la dernière, et méconnue, des plaies d'égypte</p>
+              <p> ... oui ..</p>
+              <p>Longtemps je suis resté dans l'anonymat</p>
+              <p>Mais aujourd'hui, j'ai décidé de prendre la parole..</p>
+              
+          </div>
+        </div>
+
+        <div id="clickToShow">
+          <button>afficher les élements centraux</button>
+        </div>
 
         <nav>
           <ul>
@@ -35,13 +49,13 @@
 
           <img id="logo" src="img/googlelogo_colo.png" alt="google logo">
 
-          <form id="query" action="nonelol.php">
+          <form id="query">
             <input type="text">
           </form>
 
           <div class="lucky--line">
-            <button>Recherche Google</button>
-            <button>J'ai de la chance</button>
+            <button id="launchSearch">Recherche Google</button>
+            <button id="iamLucky">J'ai de la chance</button>
           </div>
           
         </main>
@@ -64,5 +78,6 @@
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script src="script/main.js"></script>
     </body>
 </html>
