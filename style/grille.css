@@ -1,0 +1,15 @@
+#container-grille {
+  width: 90%;
+  margin: 15px auto 0 auto;
+  max-width: 650px;
+  line-height: 0;
+}
+
+.cell {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: orange;
+  border: solid 1px rebeccapurple;
+  margin: 0;
+  padding: 0;
+}
