@@ -192,4 +192,7 @@ Enfin enfin :
   (excellents exercices sur les manipulations de données notamment)
   https://www.freecodecamp.org/ <--- 100% gratuit
 
+  et une super resource en plus pour js :
+  https://youtu.be/BMUiFMZr7vk
+
 */

@@ -152,7 +152,7 @@ Dans les deux cas, vous obiendrez une phrase :
 
 
 
-( https://youtu.be/Vwur45ZK2Ko __pour ceux qui ont pu être choqués par le dernier exemple )
+( https://youtu.be/Vwur45ZK2Ko )
 
 
 
@@ -170,6 +170,9 @@ Enfin enfin :
   ainsi que le programme JS de freecodecamp.com
   (excellents exercices sur les manipulations de données notamment)
   https://www.freecodecamp.org/ <--- 100% gratuit
+
+  et une super resource en plus pour js :
+  https://youtu.be/BMUiFMZr7vk
 
 
 */
