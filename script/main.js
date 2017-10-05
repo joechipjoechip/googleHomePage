@@ -1,7 +1,6 @@
 // variables
 // ici je définis toutes les variables dont je vais avoir besoin
-const appearAfter = document.querySelectorAll('.appearAfter'),
-      button = document.querySelector('#clickToShow button'),
+const button = document.querySelector('#clickToShow button'),
       launchSearchButton = document.getElementById('launchSearch'),
       input = document.querySelector('#query > input'),
       form = document.getElementById('query'),
