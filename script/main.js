@@ -103,3 +103,90 @@ popup.addEventListener('click', popupUndisplay);
 initPopup();
 
 
+
+
+// edit : 
+// à la relecture, et pour vous aider, il me semble que 2 ou 3 petites choses méritent une explication :
+/*
+quand je dit 
+  if(variable)
+
+c'est équivalent à
+  if (variable === true)
+
+c'est juste une manière plus rapide d'écrire
+donc on peut en déduire que
+
+  if(!variable)
+est équivalent à
+  if(variable !== true)
+et équivalent également à
+  if (variable === false)
+
+(tout ça est valable pour l'ancienne syntaxe, ainsi que pour la nouvelle, ainsi que dans d'autres languages de programmation)
+
+
+-----------
+--ES6---
+-----------
+ensuite, dans ce code, c'est une syntaxe dite "ES6" qui est utilisée
+c'est à dire que c'est la syntaxe "moderne" de javascript
+
+quand je dit
+  const une_variable = qqch;
+ça veut dire que c'est une variable qui ne sera jamais réassignée
+
+quand je dit
+  let un_autre_variable = qqch;
+ça veut dire que c'est une variable qui pourra être réassignée
+
+-> Dans l'ancienne syntaxe javascript, cette différenciation n'existe pas, et toutes les variables sont déclarées avec "var"
+
+----------
+
+ensuite, pour déclarer une fonction, j'utilise une "fonction fléchée", c'est à dire :
+  const ma_fonction = (parametre) => { 
+    // les différentes étapes de ma fonction 
+      .. et s'il n'y a qu'un parametre, on peut même se passer des parenthèse qui l'entourent..
+  };
+
+ce qui équivaut, dans l'ancienne syntaxe, à :
+  var ma_fonction = function(parametre) {
+    // les différentes étapes de ma fonction 
+  };
+
+----------
+
+enfin, quand vous voyez ce genre de chose :
+(es6)
+
+  const prenom = "Thérèse";
+  const phrase = `Je t'encule ${prenom}.`;
+
+
+C'est l'équivalent de :
+(ancienne syntaxe)
+
+  var prenom = "Thérèse";
+  var phrase = "Je t'encule " + prenom + ".";
+
+
+Dans les deux cas, vous obiendrez une phrase : 
+  Je t'encule Thérèse.
+
+
+
+
+( https://youtu.be/Vwur45ZK2Ko __pour ceux qui ont pu être choqués par le dernier exemple )
+
+
+
+
+
+Voilà voilà, donc une précision pour finir, ce n'est pas pour vous perdre ou pour être chauvin ou que sais-je
+qu'on utilise la syntaxe ES6, mais simplement parcequ'elle est de plus en plus répandue (elle date de 2015), 
+et qu'il est important de pouvoir la lire et la comprendre. Elle apporte un certain confort à l'écriture,
+ainsi que tout un tas de petites fonctionnalités en plus qui aident bcp le taff des dev.
+
+
+*/
