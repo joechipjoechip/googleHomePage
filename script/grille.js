@@ -75,5 +75,5 @@ const gen = n => {
 
 
 // init
-// on lance une première fois le ask, avec false en parametre, pour que firstTime puisse rester à true
+// on lance une première fois le ask (avec false en parametre, pour que firstTime puisse rester à true)
 ask(false);

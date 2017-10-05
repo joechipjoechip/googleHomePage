@@ -7,6 +7,9 @@
 
 .cell {
   display: inline-block;
+  /* box-sizing à border-box permet d'indiquer que la taille de la border n'influera pas sur la taille du block */
+  /* sans ça, la taille de la bordure s'ajoute implicitement à la taille di block, et il devient difficile */
+  /* de savoir quelle taille a exactement le block */
   box-sizing: border-box;
   background-color: orange;
   border: solid 1px rebeccapurple;
