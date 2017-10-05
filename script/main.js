@@ -174,12 +174,7 @@ C'est l'équivalent de :
 Dans les deux cas, vous obiendrez une phrase : 
   Je t'encule Thérèse.
 
-
-
-
-( https://youtu.be/Vwur45ZK2Ko __pour ceux qui ont pu être choqués par le dernier exemple )
-
-
+( https://youtu.be/Vwur45ZK2Ko )
 
 
 
@@ -188,5 +183,13 @@ qu'on utilise la syntaxe ES6, mais simplement parcequ'elle est de plus en plus r
 et qu'il est important de pouvoir la lire et la comprendre. Elle apporte un certain confort à l'écriture,
 ainsi que tout un tas de petites fonctionnalités en plus qui aident bcp le taff des dev.
 
+
+Enfin enfin :
+  j'ai tout appris sur le programme 30j de JS de Wes Bos :
+  https://javascript30.com/ <--- 100% gratuit
+
+  ainsi que le programme JS de freecodecamp.com
+  (excellents exercices sur les manipulations de données notamment)
+  https://www.freecodecamp.org/ <--- 100% gratuit
 
 */
